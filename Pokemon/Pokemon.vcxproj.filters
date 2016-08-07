@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Type">
+      <UniqueIdentifier>{85543392-570f-4dbb-9fa7-fb84aa69128d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Typing">
+      <UniqueIdentifier>{990ac4f0-75e2-440f-8658-8c7bb8f67d88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Speciation">
+      <UniqueIdentifier>{bc5a197d-5dab-4f31-a9b6-7a645d30ab71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Speciation\All Species">
+      <UniqueIdentifier>{4867e418-fc0a-4937-8ad5-b9642a3ad51f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Typing\All Types">
+      <UniqueIdentifier>{30ef2ec0-8699-46a1-907b-3e82e8be4a7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Moves">
+      <UniqueIdentifier>{fae7fde5-cd21-4cf5-a2bd-b199479bd2ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Nature">
+      <UniqueIdentifier>{38733af9-f213-4da0-b466-109440e26d16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CombatStats">
+      <UniqueIdentifier>{e6db34d0-9bed-4a54-a3ac-d2563c60be78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Nature\Natures">
+      <UniqueIdentifier>{03e59d4e-f681-4c3b-8004-16479a390715}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Type.cpp">
+      <Filter>Source Files\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="Species.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CombatStatToFlavorMapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bulbasaur.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pokemon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Pokemon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EggGroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gender.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Typename.h">
+      <Filter>Header Files\Typing</Filter>
+    </ClInclude>
+    <ClInclude Include="Bug.h">
+      <Filter>Header Files\Typing\All Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Dark.h">
+      <Filter>Header Files\Typing\All Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Dragon.h">
+      <Filter>Header Files\Typing\All Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Electric.h">
+      <Filter>Header Files\Typing\All Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Fairy.h">
+      <Filter>Header Files\Typing\All Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Fighting.h">
+      <Filter>Header Files\Typing\All Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Fire.h">
+      <Filter>Header Files\Typing\All Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Flying.h">
+      <Filter>Header Files\Typing\All Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Ghost.h">
+      <Filter>Header Files\Typing\All Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Grass.h">
+      <Filter>Header Files\Typing\All Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Ground.h">
+      <Filter>Header Files\Typing\All Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Ice.h">
+      <Filter>Header Files\Typing\All Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Normal.h">
+      <Filter>Header Files\Typing\All Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Poison.h">
+      <Filter>Header Files\Typing\All Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Psychic.h">
+      <Filter>Header Files\Typing\All Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Rock.h">
+      <Filter>Header Files\Typing\All Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Steel.h">
+      <Filter>Header Files\Typing\All Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Water.h">
+      <Filter>Header Files\Typing\All Types</Filter>
+    </ClInclude>
+    <ClInclude Include="AllTypes.h">
+      <Filter>Header Files\Typing\All Types</Filter>
+    </ClInclude>
+    <ClInclude Include="SpeciesName.h">
+      <Filter>Header Files\Speciation</Filter>
+    </ClInclude>
+    <ClInclude Include="Bulbasaur.h">
+      <Filter>Header Files\Speciation\All Species</Filter>
+    </ClInclude>
+    <ClInclude Include="BodyStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelingRateGroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AbilityName.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemName.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveName.h">
+      <Filter>Header Files\Moves</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveMachine.h">
+      <Filter>Header Files\Moves</Filter>
+    </ClInclude>
+    <ClInclude Include="Move.h">
+      <Filter>Header Files\Moves</Filter>
+    </ClInclude>
+    <ClInclude Include="Flavor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IType.h">
+      <Filter>Header Files\Typing</Filter>
+    </ClInclude>
+    <ClInclude Include="IItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IAbility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ISpecies.h">
+      <Filter>Header Files\Speciation</Filter>
+    </ClInclude>
+    <ClInclude Include="CombatStats.h">
+      <Filter>Header Files\CombatStats</Filter>
+    </ClInclude>
+    <ClInclude Include="CombatStat.h">
+      <Filter>Header Files\CombatStats</Filter>
+    </ClInclude>
+    <ClInclude Include="CombatStatToFlavorMapper.h">
+      <Filter>Header Files\Nature</Filter>
+    </ClInclude>
+    <ClInclude Include="NatureName.h">
+      <Filter>Header Files\Nature</Filter>
+    </ClInclude>
+    <ClInclude Include="INatureWithLinkedStatsAndFlavors.h">
+      <Filter>Header Files\Nature</Filter>
+    </ClInclude>
+    <ClInclude Include="INature.h">
+      <Filter>Header Files\Nature</Filter>
+    </ClInclude>
+    <ClInclude Include="Adamant.h">
+      <Filter>Header Files\Nature\Natures</Filter>
+    </ClInclude>
+    <ClInclude Include="Timid.h">
+      <Filter>Header Files\Nature\Natures</Filter>
+    </ClInclude>
+    <ClInclude Include="Hasty.h">
+      <Filter>Header Files\Nature\Natures</Filter>
+    </ClInclude>
+    <ClInclude Include="Jolly.h">
+      <Filter>Header Files\Nature\Natures</Filter>
+    </ClInclude>
+    <ClInclude Include="Naive.h">
+      <Filter>Header Files\Nature\Natures</Filter>
+    </ClInclude>
+    <ClInclude Include="Lonely.h">
+      <Filter>Header Files\Nature\Natures</Filter>
+    </ClInclude>
+    <ClInclude Include="Brave.h">
+      <Filter>Header Files\Nature\Natures</Filter>
+    </ClInclude>
+    <ClInclude Include="Naughty.h">
+      <Filter>Header Files\Nature\Natures</Filter>
+    </ClInclude>
+    <ClInclude Include="Bold.h">
+      <Filter>Header Files\Nature\Natures</Filter>
+    </ClInclude>
+    <ClInclude Include="Relaxed.h">
+      <Filter>Header Files\Nature\Natures</Filter>
+    </ClInclude>
+    <ClInclude Include="Impish.h">
+      <Filter>Header Files\Nature\Natures</Filter>
+    </ClInclude>
+    <ClInclude Include="Lax.h">
+      <Filter>Header Files\Nature\Natures</Filter>
+    </ClInclude>
+    <ClInclude Include="Modest.h">
+      <Filter>Header Files\Nature\Natures</Filter>
+    </ClInclude>
+    <ClInclude Include="Mild.h">
+      <Filter>Header Files\Nature\Natures</Filter>
+    </ClInclude>
+    <ClInclude Include="Quiet.h">
+      <Filter>Header Files\Nature\Natures</Filter>
+    </ClInclude>
+    <ClInclude Include="Rash.h">
+      <Filter>Header Files\Nature\Natures</Filter>
+    </ClInclude>
+    <ClInclude Include="Calm.h">
+      <Filter>Header Files\Nature\Natures</Filter>
+    </ClInclude>
+    <ClInclude Include="Gentle.h">
+      <Filter>Header Files\Nature\Natures</Filter>
+    </ClInclude>
+    <ClInclude Include="Sassy.h">
+      <Filter>Header Files\Nature\Natures</Filter>
+    </ClInclude>
+    <ClInclude Include="Careful.h">
+      <Filter>Header Files\Nature\Natures</Filter>
+    </ClInclude>
+    <ClInclude Include="SpeciesFactory.h">
+      <Filter>Header Files\Speciation</Filter>
+    </ClInclude>
+    <ClInclude Include="AllSpecies.h">
+      <Filter>Header Files\Speciation\All Species</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
